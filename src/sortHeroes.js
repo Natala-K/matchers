@@ -6,8 +6,9 @@
  * @returns {Array} - Отсортированный массив.
  */
 function sortHeroes(heroes) {
-    return heroes.sort((a, b) => b.health - a.health);
-  }
-  
-  module.exports = sortHeroes;
+  return [...heroes].sort((a, b) => b.health - a.health);
+}
+
+module.exports = sortHeroes;
+
   
