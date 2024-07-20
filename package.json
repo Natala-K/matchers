@@ -12,6 +12,9 @@
   "@babel/preset-env": "^7.24.8",
   
     
+  "html-webpack-plugin": "^5.6.0",
+  
+    
   "jest": "^29.7.0",
   
     
